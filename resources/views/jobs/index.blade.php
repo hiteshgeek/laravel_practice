@@ -7,7 +7,6 @@
         @foreach ($jobs as $i => $job)
             <a href="/jobs/{{ $job['id'] }}" class='block px-4 py-6 border bordere-gray-200 rounded-lg'>
                 <div class="font-bold text-blue-500 text-sm">
-                    {{ $i + 1 }}.
                     {{ $job->employer->name }}
                 </div>
                 <div>
