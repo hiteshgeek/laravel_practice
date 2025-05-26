@@ -47,7 +47,7 @@
                             @auth
                                 <form method="POST" action="/logout">
                                     @csrf
-                                    <x-form-button href='/jobs/create'>Log Out</x-form-button>
+                                    <x-form-button>Log Out</x-form-button>
                                 </form>
                             @endauth
                         </div>
