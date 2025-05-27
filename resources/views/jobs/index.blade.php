@@ -10,7 +10,7 @@
                     {{ $job->employer->name }}
                 </div>
                 <div>
-                    <strong>{{ $job['title'] }}</strong>:{{ $job['salary'] }}
+                    <strong class='text-laracasts'>{{ $job['title'] }}</strong>:{{ $job['salary'] }}
                 </div>
             </a>
         @endforeach
